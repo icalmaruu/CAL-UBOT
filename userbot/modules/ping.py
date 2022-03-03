@@ -116,11 +116,11 @@ async def redis(pong):
     start = datetime.now()
     await pong.edit("PONG!!")
     await asyncio.sleep(2)
-    await pong.edit(f"{REPO_NAME}")
+    await pong.edit(f"🔥 CAL-UBOT 🔥")
     await asyncio.sleep(3)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"{REPO_NAME}!!\n"
+    await pong.edit(f"🔥 CAL-UBOT 🔥!!\n"
                     f"OWNER : {ALIVE_NAME}\n `%sms`\n"
                     f"`{uptime}` \n" % (duration))
 
