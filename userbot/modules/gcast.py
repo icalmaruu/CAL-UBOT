@@ -39,7 +39,7 @@ async def gcast(event):
     else:
         await event.edit("**Berikan Sebuah Pesan atau Reply**")
         return
-    kk = await event.edit("`Sedang Mengirim Pesan Secara Global... 📢`")
+    kk = await event.edit("`ical sipaling tampan, imut, nan lucu sedang mengirim pesan... 📢`")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
@@ -57,7 +57,7 @@ async def gcast(event):
                 except BaseException:
                     er += 1
     await kk.edit(
-        f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**"
+        f"**ical sipaling ganteng berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**"
     )
 
 @register(outgoing=True, pattern=r"^\.gucast(?: |$)(.*)")
