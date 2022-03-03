@@ -34,7 +34,7 @@ async def _(event):
     await event.delete()
     await event.reply("**gbanning...**")
     asyncio.sleep(3.5)
-    await event.edit(f"**User gbanned by {DEFAULTUSER}**")
+    await event.edit(f"**Kapan lagi lo di gban si ganteng {DEFAULTUSER}**")
     asyncio.sleep(5)
     await event.delete()
 
@@ -57,6 +57,6 @@ async def _(event):
     await event.delete()
     await event.reply("**ungbanning...**")
     asyncio.sleep(3.5)
-    await event.edit(f"**User ungbanned by {DEFAULTUSER}**")
+    await event.edit(f"**Si ganteng {DEFAULTUSER} kasian sama lo jadi di UNGBAN**")
     asyncio.sleep(5)
     await event.delete()
