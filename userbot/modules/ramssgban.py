@@ -85,11 +85,11 @@ async def gben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("`Ingin Mengaktifkan Perintah Global Banned!`")
+        dark = await dc.reply("`Si Tampan Mengaktifkan Perintah Global Banned!`")
     else:
-        dark = await dc.edit("`Memproses Global Banned Pengguna Ini!!`")
+        dark = await dc.edit("`Otw Nge Gban Ni Gembel Satu!!`")
     me = await userbot.client.get_me()
-    await dark.edit(f"`Global Banned Akan Segera Aktif!!`")
+    await dark.edit(f"`Gban Segera Aktif Karena Diminta Si Tampan!!`")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
     await userbot.get_chat()
@@ -107,11 +107,11 @@ async def gben(userbot):
         if not reason:
             reason = "Private"
     except BaseException:
-        return await dark.edit(f"`Terjadi Kesalahan`")
+        return await dark.edit(f"`Error Anjing Dia NgeCheat`")
     if user:
         if user.id in DEVS:
             return await dark.edit(
-                f"`Anda Tidak Bisa Melakukan Global Banned, Karena dia pembuatku 🤪`"
+                f"`Najis Lo Development Ngentot, Apa Mau Ngatain Gue Babu Ha Anjing??!!`"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import gmute
@@ -130,7 +130,7 @@ async def gben(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, view_messages=False)
                 a += 1
-                await dark.edit(f"`Global Banned Si Jamet Aktif Tuan✅`")
+                await dark.edit(f"`Kapan Lagi Kan Lo Berhasil Di Gban Orang Tampan🤙😎`")
             except BaseException:
                 b += 1
     else:
@@ -159,7 +159,7 @@ async def gunben(userbot):
         dark = await dc.edit("`Membatalkan Perintah Global Banned`")
     me = await userbot.client.get_me()
     await dark.edit(
-        f"`Memulai Membatalkan Perintah Global Banned, Jangan Songong Lagi Ya!!!`"
+        f"`Kasian Bego Gue Ngeliat Lo Di Gban, Gue Buka Ni Anjing, Jangan Jadi Gembel Lagi Ya!!!`"
     )
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
