@@ -381,7 +381,7 @@ async def koc(e):
 @register(outgoing=True, pattern="^.mf$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("`MAAF GADULU YA` **😝😜🤪😛** ")
+        await e.edit("`GINGUN KU SAYANG MAAFIN ICAL YA` **❣️💖❤️💞** ")
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
@@ -412,7 +412,7 @@ async def _(event):
             "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
             "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            f"`Cintaku Sekarang Sepenuhnya Terkirim Padamu, Dan Sekarang Aku Sangat Mencintai Mu, I Love You 💞`"]
+            f"`Cinta ical sekarang terkirim kepada gingun sepenuhnya, Lopyu Pull Gingunn 💞`"]
 
         for i in animation_ttl:
 
@@ -445,22 +445,22 @@ async def typewriter(typew):
     await typew.edit("**YANG GA JAWAB, FIX ATHEISS!!**")
    # Create by myself @ram-ubot
 
-@register(outgoing=True, pattern='^.gblk(?: |$)(.*)')
+@register(outgoing=True, pattern='^.gingun(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("WOI GOBLOK!!!")
+    await typew.edit("WOI GINGUN!!!")
     sleep(2)
-    await typew.edit("KOK LU GOBLOK BANGET SIH ANJING")
+    await typew.edit("ASAL GINGUN TAU, ICAL TU SAYANG BANGET SAMA GINGUN")
     sleep(2)
-    await typew.edit("UDAH DI SIA SIA IN, DAN GA DI ANGGAP")
+    await typew.edit("WALAUPUN KITA SERING BERANTEM, TAPI ICAL TETEP SAYANG SAMA GINGUN")
     sleep(2)
-    await typew.edit("MASIH AJA LU PERTAHANIN, GOBLOK!!!!")
+    await typew.edit("GINGUN TAU GA SI KALAU ICAL TU SAYANG SAMA GINGUN??!!!!")
     sleep(2)
-    await typew.edit("UDAH LAH ANJING,GAOSAH KAYA GTU")
+    await typew.edit("UDAH YAA JANGAN MARAH MARAH LAGI")
     sleep(2)
-    await typew.edit("JAUHIN AJA AJG, BOCAH KYA DIA MAH")
+    await typew.edit("ICAL MINTA MAAF ATAS SEMUA NYA")
     sleep(2)
-    await typew.edit("TINGGALIN AJA YA AJG!!!!")
+    await typew.edit("ICAL SAYANG GINGUN❣️")
     
     
 CMD_HELP.update({
@@ -475,6 +475,6 @@ CMD_HELP.update({
     "memes10":
     "`.cinta`\
     \nUsage: mengirim cintamu ke seseorang.\
-    \n\n`.sange` ;  `.gblk`\
+    \n\n`.sange` ;  `.gingun`\
     \nUsage: cobalah sndiri ngentot."
 })
