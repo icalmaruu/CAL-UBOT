@@ -17,16 +17,16 @@ from userbot import ALIVE_NAME, CMD_HELP, StartTime, REPO_NAME, DEVG, BOT_VER
 from userbot.events import register
 
 gesss = [
-    "Eh ada Owner keren",
+    "Eh ada ical sipaling tampan",
     "Hadir ganteng 😍",
-    "Hi Tuan, kemana sj? 🤗",
-    "Hadir kak 😉",
-    "Hadir bang 😁",
-    "Hadir bang maap telat 🥺",
+    "Hi kangen banget sama siganteng ical 🤗",
+    "Hadir mas ical 😉",
+    "Hadir bestihhhh 😁",
+    "Hadir ka ical maap telat 🥺",
     "Saya slalu ada buat Tuan Owner🥵",
-    "Jangan kemana mana lagi ya bang",
-    "Pas banget bang, aku lagi kangen",
-    "Bang owner on juga akhirnya🥵",
+    "Jangan kemana mana lagi ya ka ical",
+    "Ih ical hari ini ganteng banget",
+    "Makin dilihat makin ganteng ical ih🥵",
 ]
 
 brb = [
@@ -98,7 +98,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**🔥 CAL-UBOT 🔥**\n"
+        f"**🔥 CAL - UBOT 🔥**\n"
         f"** ➠  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ➠  Bᴏᴛᴠᴇʀ  :** "
@@ -116,11 +116,11 @@ async def redis(pong):
     start = datetime.now()
     await pong.edit("PONG!!")
     await asyncio.sleep(2)
-    await pong.edit(f"🔥 CAL-UBOT 🔥")
+    await pong.edit(f"🔥 CAL - UBOT 🔥")
     await asyncio.sleep(3)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"🔥 CAL-UBOT 🔥!!\n"
+    await pong.edit(f"🔥 CAL - UBOT 🔥!!\n"
                     f"OWNER : {ALIVE_NAME}\n `%sms`\n"
                     f"`{uptime}` \n" % (duration))
 
