@@ -17,16 +17,16 @@ from userbot import ALIVE_NAME, CMD_HELP, StartTime, REPO_NAME, DEVG, BOT_VER
 from userbot.events import register
 
 gesss = [
-    "Eh ada ical sipaling tampan",
-    "Hadir ganteng 😍",
-    "Hi kangen banget sama siganteng ical 🤗",
-    "Hadir mas ical 😉",
-    "Hadir bestihhhh 😁",
-    "Hadir ka ical maap telat 🥺",
-    "Saya slalu ada buat Tuan Owner🥵",
-    "Jangan kemana mana lagi ya ka ical",
-    "Ih ical hari ini ganteng banget",
-    "Makin dilihat makin ganteng ical ih🥵",
+    "JANGAN MANGGIL GUE MULU KONTOL",
+    "GAUSAH KEK TAIK LO MANGGIL MULU",
+    "APASI NGENTOT DEMEN BANGET MANGGIL GUE",
+    "WOI NGENTOT GUE PUKUL LO MANGGIL TERUS",
+    "ICAL GANTENG BANGET",
+    "ICAL PALING TAMPAN",
+    "APASI NGENTOT GAS GES GAS GES",
+    "BERISIK GEMBEL GAS GES GAS GES",
+    "NGAPA MANGGIL?? PALA LO MAU GUE PUKUL??",
+    "JANGAN MANGGIL GUE, TAR EGIN KU SAYANG NGAMBEK",
 ]
 
 brb = [
