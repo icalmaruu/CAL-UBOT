@@ -10,19 +10,19 @@ import asyncio
 @register(outgoing=True, pattern="^.hua$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("Aku di ghosting")
+        await e.edit("Aku Sayang Gingun")
         sleep(1)
-        await e.edit("😭😭😭")
+        await e.edit("❣️❤️💖💞💝💘💛🧡💚")
         sleep(1)
-        await e.edit("Aku Sedihhh")
+        await e.edit("Aaa Gingun Cantik Banget")
         sleep(1)
         await e.edit("Kenapa si")
         sleep(1)
-        await e.edit("GAMPANG BGT NYAKITIN")
+        await e.edit("Manusia Bisa Secantik Itu>.<")
         sleep(1)
-        await e.edit("HATI GUA BUKAN BUAT DI GHOSTING")
+        await e.edit("HATI KU JADI JEDAG JEDUG AAAAAA>.<")
         sleep(1)
-        await e.edit("TAI BANGET ASLI")
+        await e.edit("CANTIK BANGET ASLI")
         sleep(1)
         await e.edit("PARAH SI")
         sleep(1)
@@ -30,45 +30,45 @@ async def koc(e):
         sleep(1)
         await e.edit("TWINGG")
         sleep(1)
-        await e.edit("KONTOL")
+        await e.edit("AAARRGGGHHH>.<")
         sleep(1)
-        await e.edit("MEMEK")
+        await e.edit("TOLOOONGGG")
         sleep(1)
-        await e.edit("AKU DI GHOSTING")
+        await e.edit("GINGUN MENCURI HATI KU😝😝")
         sleep(1)
-        await e.edit("BANGSAT")
+        await e.edit("KU TER GINGUN GINGUN💞💞")
         sleep(1)
-        await e.edit("ANJING")
+        await e.edit("MAMAAAAA")
         sleep(1)
-        await e.edit("😡😡😡")
+        await e.edit("PAPAAAA")
         sleep(1)
-        await e.edit("🥴🥴🥴")
+        await e.edit("PENGEN MARRIED MA GINGUN>.<")
         sleep(1)
-        await e.edit("ANJINGGGG༼")
+        await e.edit("GIIINGUUUUUUUNNN")
         sleep(1)
-        await e.edit("TAIIII")
+        await e.edit("KENAPA KAMU CANTIK SEKALII>.<")
         sleep(1)
-        await e.edit("AH ELAHH BABI")
+        await e.edit("TERLALU CANTIK SAMPAI INGIN KUMILIKI 💞💞")
         sleep(1)
-        await e.edit("GAUSAH GANGGU")
+        await e.edit("KU BISA GILA KARNA GINGUN TERLALU CANTIK >.<")
         sleep(1)
-        await e.edit("GUA STRESS")
+        await e.edit("TOLONGGG SEMUANYAA..!!!")
         sleep(1)
-        await e.edit("😭😭😭😭😭😭")
+        await e.edit("TOLONGG DI NERF CANTIK NYA GINGUN..!!!")
         sleep(1)
-        await e.edit("🥴🥴🥴🥴")
+        await e.edit("GINGUN TERLALU CANTIK💖💖💖")
         sleep(1)
-        await e.edit("ADA YG MAU SAMA GUA?")
+        await e.edit("PUNYAKU PUNYAKU PUNYAKU")
         sleep(1)
-        await e.edit("PLISS GUA BUTUH")
+        await e.edit("PLISS GINGUN PUNYAKUU..!!!")
         sleep(1)
-        await e.edit("SESEORANG YG MAU NERIMA GUA")
+        await e.edit("SEMUANYA..!!! GINGUN PUNYA ICAL YA😡😡")
         sleep(1)
-        await e.edit("😔😔😔😔")
+        await e.edit("GA ADA YANG BOLEH AMBIL GINGUN DARI ICAL😡😡")
         sleep(1)
-        await e.edit("MAU GAK JADI PACAR GUA??༼")
+        await e.edit("KALAU SAMPAI ADA YANG AMBIL NANTI TAK PUKUL😡😡")
         sleep(1)
-        await e.edit("༼ TAPI BOONG TOD!!༽")
+        await e.edit("POKONYA MAH SAYANG BANGET MA GINGUN💞💞💞")
 
 
 @register(outgoing=True, pattern='^.huh(?: |$)(.*)')
@@ -80,11 +80,11 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n/>💔  *E GAK DEH,UDH DI KSH GRATIS LU RUSAKIN`")
+                     "`\n/>💔  *E GAK DEH, NANTI AYANG GINGUN MARAH`")
     sleep(2)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n💔<\\  *KENTOD`")
+                     "`\n💔<\\  *KU GA MAU GINGUN MARAH`")
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
@@ -168,7 +168,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n💖<\\  *Tapi Bo'ong`")
+                     "`\n💖<\\  *Eits Nda Boleh, Ini Buat Gingun😝`")
 # Alpinnnn Gans
 
 
@@ -190,12 +190,12 @@ async def _(event):
         await event.edit(input_str)
 
         animation_chars = [
-            "**OWNER RAM-UBOT ADALAH MANUSIA TERGANTENG DI HATI PEMAKAI NYA, KENALAN DULU SAMA OWNER NYA YUK**"
-            "**RAMADHANI NAMANYA,ORANG NYA BAIK**"
+            "**OWNER CAL - UBOT ADALAH MANUSIA TERGANTENG DI HATI PEMAKAI NYA, KENALAN DULU SAMA OWNER NYA YUK**"
+            "**ICAL NAMANYA,ORANG NYA BAIK**"
             "**TINGGAL NYA DI TANGERANG, BTW ORANG TANGERANG GANTENG GANTENG DAN THEBEST POKOK NYA AWWHHHH**"
             "**KALO MAU FORK REPONYA,IZIN DULU KE ORANG NYA YA GENGSSS**"
             "**POKOK NYA OWNER NYA THEBEST BANGET SERIUSSSSS**"
-            "**UDAH POKOK NYA ITU AJA SIH,INTINYA OWNER NYA GANTENG DAN BAIK PARAH**"]
+            "**ICAL JUGA UDAH PUNYA CEWEK YA GES, GINGUN NAMA NYA❣️❣️**"]
 
         for i in animation_ttl:
 
